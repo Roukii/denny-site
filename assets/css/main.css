@@ -235,7 +235,7 @@ h5 {
 
 p {
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   color: #fff;
   line-height: 30px;
   letter-spacing: .5px;
@@ -889,7 +889,7 @@ a {
 	margin-top:530px;
 }
 .bg-3 {
-  background: url( "../img/2022-06-27 16.03.54-2.mp4") center no-repeat;
+  /*background: url( "../img/2022-06-27 16.03.54-2.mp4") center no-repeat;*/
   background-size: cover;
   z-index: 3;
   position: fixed;
@@ -1020,6 +1020,9 @@ h1.title {
   font-weight: 900;
 }
 
+.folio-content-2 {
+  background: url("../img/Customers-ddesign.mov")center no-repeat;
+}
 .folio-content {
   background: #000;
 	border-radius: 10px;
@@ -1050,24 +1053,7 @@ h1.title {
   letter-spacing: 2px;
   -webkit-text-stroke: 1px #fff;
   z-index: 4;
-  left: 50%;
-  center: 1px;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-}
-
-.folio-content .folio-item .text-folio h2.text-2 {
-  position: absolute;
-  font-family: 'Poppins', sans-serif;
-  color: #fff;
-  font-weight: 900;
-  font-size: 40px;
-  letter-spacing: 2px;
-  z-index: 1;
-  left: 50%;
+  left: 50vw;
   center: 1px;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
