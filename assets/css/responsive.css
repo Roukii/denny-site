@@ -109,6 +109,7 @@
   .next-project h3 {
     font-size: 30px;
   }
+	
   section {
     padding: 50px 0;
   }
@@ -128,6 +129,37 @@
   h3.detail-title {
     font-size: 30px;
   }
+	.button{
+		width: 35vw!important;
+		height: 40px!important;
+		margin-left: 31vw!important;
+	
+		
+	}
+	.button p{
+		font-size: 12px;
+		padding: 5px!important;
+	}
+	.folio-content video{
+		width: 300vw!important;
+		margin-top: -4vh!important;
+		margin-bottom: -10vh!important;
+		margin-left: -100vw;
+	}
+	.col-md-8 img{
+		width: 90vw!important;
+		
+	}
+	.col-md-8 h3{
+		font-size: 24px!important;
+		
+	}
+	.line2 {
+		margin-top: -2vh;
+	}
+	.container{
+		margin-top: -6vh;
+	}
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -215,8 +247,20 @@
   .next-project h3 {
     font-size: 40px;
   }
-}
+	
 
+	.button{
+		width: 26vw!important;
+		height: 44px!important;
+	
+		
+	}
+	.button p{
+		font-size: 12px!important;
+		padding: 5px!important;
+	}
+	
+}
 /* // Small devices (landscape phones, less than 768px) */
 @media (min-width: 767.98px) and (max-width: 991.98px) {
 	.bg-work video{max-width:140vh!important;
@@ -245,6 +289,17 @@
   section {
     padding: 70px 0;
   }
+	
+	.button{
+		width: 24vw!important;
+		height: 44px!important;
+	
+		
+	}
+	.button p{
+		font-size: 13px!important;
+		padding: 5px!important;
+	}
 }
 
 /* // Medium devices (tablets, less than 992px) */
@@ -255,6 +310,18 @@
   section {
     padding: 100px 0;
   }
+	
+	.button{
+		width: 24vw!important;
+		height: 44px!important;
+	
+		
+	}
+	.button p{
+		font-size: 13px;
+		padding: 5px!important;
+	}
+	
 	
 }
 
