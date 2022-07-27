@@ -37,9 +37,17 @@
   .logo {
     margin-top: 5vh;
   }
-  .main-head h1 {
-    font-size: 30px;
-  }
+	
+	.main-head img{
+		width: 900vw;
+	}
+	
+	#headmove{
+		display: none!important;
+	}
+	#headmove2{
+		display: block!important;
+	}
   .sub-abt {
     display: none;
   }
@@ -160,6 +168,165 @@
 	.container{
 		margin-top: -6vh;
 	}
+	
+  .folio-content{
+	  margin-top: -20vh!important;
+  }
+	
+	.grid-container {
+	
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 5px!important;
+		margin-left: -1vw;
+}
+.grid-item img{
+	max-width:150px!important;
+	max-height: 90px!important;
+	
+}
+	.c .s img{
+		width: 330vw!important;
+	}
+	.c {
+		height: 10vh!important;
+		margin-top:-40px;
+	}
+	
+	.folio-content .col-md-8 img{
+		min-width: 148vw!important; 
+		max-width: 196vw!important;
+		margin: auto!important;
+		margin-left: 9vw!important;
+	}
+	
+	.folio-content .col-md-8 {
+		margin-top: 17vh!important;
+	}
+	.col-11 button{
+		height: 90px;
+		
+	}
+	
+	.col-11 button img{
+		margin-top: -16px;
+		
+	}
+	.content{
+		height: 360px;
+		margin-left: -15px;
+	}
+	.content p{
+		font-size: 17px!important;
+	}
+	.folio-content .col-md-8 video{
+		margin-top:  -32vh!important;
+	}
+	.collapsible img{
+		width: 400px!important;
+	}
+	.folio-content .col-md-45{
+		top: -80vh!important;
+	}
+	.folio-content .col-md-45 h3{
+		font-size: 27px!important;
+	}
+	.container .row{
+		margin-top: -8vh!important;
+		
+	}
+	a.menu-link {
+		font-size: 10vw!important;
+	}
+	
+.carrusell1 {
+  top: 90px;
+	height: 600px!important;
+ 
+}
+	
+	.card {
+  height: 400px!important;
+		
+	padding-right: 200px;
+		
+		left: 50px!important;
+		
+		margin-left: -19px!important;
+}
+	.card a{
+	font-size: 13px;
+	width: 130px;
+	padding: 10px 15px;
+	border-radius: 30px;
+	margin-bottom: 25px!important;
+		text-align: center;
+		margin-left: 45px!important;
+	
+	
+	
+}
+	
+.subtitle{
+	min-width:150px!important;
+	max-width: 350px!important;
+	margin-top: 100px!important;
+	margin-left: 30px!important;
+	font-size: 13px;
+	line-height: 17px;
+	
+	
+}
+	
+.title {
+	left: 30px;
+	font-size: 22px;
+	top: 20px;
+}
+	
+	
+#wrapper {
+	margin-top: -230px;
+	
+  width:100%;
+  height:100%;
+}
+	
+#scroll-title {
+	display: none;
+}
+	#scroll-down{
+		margin-top: 30px;
+	}
+	
+	
+	.form span{
+		clear: both;
+		height: 30px;
+		margin-top: -40px;
+	}
+	.form{
+		margin: auto;
+	}
+	
+	.form p{
+	font-size: 19px;
+	margin: 40px 30px;
+		
+		
+}
+	.form input{
+		width: 230px;
+		margin: 0px 30px;text-align: left!important;
+		height: 30px;
+		
+	}
+	.buttonform{
+		font-size: 17px;
+		margin-left: 30vw;
+	}
+	
+	
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -206,6 +373,14 @@
   .main-head h1 {
     font-size: 50px;
   }
+	
+	#headmove2{
+		display: block!important;
+	}
+	
+	#headmove{
+		display: none!important;
+	}
   section {
     padding: 70px 0;
   }
@@ -238,16 +413,14 @@
   .folio-content .folio-item {
     margin-top: 40px;
   }
-  .folio-content .folio-item .text-folio h2.text-1 {
-    font-size: 40px;
-  }
-  .folio-content .folio-item .text-folio h2.text-2 {
-    font-size: 40px;
-  }
   .next-project h3 {
     font-size: 40px;
   }
 	
+	
+  .folio-content{
+	  margin-top: -8vh!important;
+  }
 
 	.button{
 		width: 26vw!important;
@@ -259,6 +432,116 @@
 		font-size: 12px!important;
 		padding: 5px!important;
 	}
+	
+	.grid-container {
+	
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item img{
+	max-width:140px!important;
+	max-height: 120px!important;
+  padding: 10px;
+  text-align: center;
+}
+		
+	.c .s img{
+		width: 330vw!important;
+	}
+	
+	.c {
+		height: 13vh!important;
+		margin-top:-70px;
+	}
+	
+	.folio-content .col-md-8{
+		width: 290vh; 
+		left: -14vw;
+	}
+	
+	.folio-content .col-md-8 video{
+		margin-top:  -35vh!important;
+		
+		margin-left: 14vw;
+	}
+	
+	.folio-content .col-md-45{
+		margin-top: -25vh!important;
+	}
+	
+	
+.carrusell1 {
+  top: 90px;
+	height: 550px!important;
+ 
+}
+	
+	.card {
+  height: 410px!important;
+		
+	padding-right: 220px;
+		
+}
+	.card a{
+	font-size: 13px;
+	width: 130px;
+	padding: 10px 15px;
+	border-radius: 30px;
+	margin-bottom: 25px!important;
+		text-align: center;
+	margin-left: 10vw!important;
+	
+	
+}
+	
+.subtitle{
+	min-width: 150px!important;
+	max-width: 350px!important;
+	margin-top: 100px!important;
+	margin-left: 30px!important;
+	font-size: 15px;
+	line-height: 22px;
+	
+	
+}
+	
+.title {
+	left: 30px;
+	font-size: 22px;
+	top: 20px;
+}
+	
+
+#wrapper {
+	margin-top: -160px;
+}
+	
+	
+	.form span{
+		clear: both;
+		height: 30px;
+		margin-top: -40px;
+	}
+	
+	.form p{
+	font-size: 30px;
+	margin: 40px 40px;
+		
+		
+}
+	.form input{
+		width: 250px;
+		margin: 0px 40px;text-align: left!important;
+		height: 30px;
+		
+	}
+	.buttonform{
+		font-size: 17px;
+		margin-left: 30vw;
+	}
+		
+	
 	
 }
 /* // Small devices (landscape phones, less than 768px) */
@@ -300,6 +583,128 @@
 		font-size: 13px!important;
 		padding: 5px!important;
 	}
+	
+	#headmove img{
+		width: 190vw!important;
+		height: 40vh;
+		clip-path: padding-box 30px;
+	}
+	
+  .folio-content{
+	  margin-top: -5vh!important;
+  }
+	.grid-container {
+	
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 50px;
+}
+.grid-item img{
+	max-width:200px!important;
+	max-height: 150px!important;
+  padding: 20px;
+  text-align: center;
+}
+		
+	.c .s img{
+		width: 330vw!important;
+	}
+	
+	.c {
+		height: 13vh!important;
+		margin-top:-70px;
+	}
+	
+	.folio-content .col-md-8 img{
+		width: 900vw; 
+		left: 4vw;
+		
+		
+	}
+	
+	.folio-content .col-md-8 video{
+		margin-top:  -30vh!important;
+	}
+
+	
+	.folio-content .col-md-45{
+		margin-top: -10vh!important;
+	}
+
+	.container .row{
+		margin-top: -10vh!important;
+		
+	}
+	
+.carrusell1 {
+  top: 90px;
+	height: 450px!important;
+ 
+}
+	
+	
+	.card {
+  height: 400px!important;
+		
+	padding-right: 220px;
+		
+}
+	.card a{
+	font-size: 13px;
+	width: 130px;
+	padding: 10px 15px;
+	border-radius: 30px;
+	margin-bottom: 25px!important;
+		text-align: center;
+	margin-left: 8vw!important;
+	
+	
+}
+	
+.subtitle{
+	min-width: 150px!important;
+	max-width: 350px!important;
+	margin-top: 100px!important;
+	margin-left: 30px!important;
+	font-size: 15px;
+	line-height: 22px;
+	
+	
+}
+	
+.title {
+	left: 30px;
+	font-size: 22px;
+	top: 30px;
+}
+	.form{
+		
+	}
+	.form span{
+		margin-top: 0px;
+	}
+	
+	.form p{
+	font-size: 25px;
+	margin-top: 40px;
+	clear: both;
+		
+}
+	.form input{
+		width: 250px;
+		clear: both;
+		margin-left: 20px;
+		margin-top: 30px!important;
+		
+		
+	}
+	.buttonform{
+		font-size: 17px;
+		margin-left: 30vw;
+	}
+	
+	.mt-30form input{
+	}
 }
 
 /* // Medium devices (tablets, less than 992px) */
@@ -322,7 +727,104 @@
 		padding: 5px!important;
 	}
 	
+	#headmove img{
+		width: 190vw!important;
+		height: 40vh;
+	}
 	
+	.grid-container {
+	
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 30px;
+}
+.grid-item img{
+	max-width:190px!important;
+	max-height: 170px!important;
+  padding: 20px;
+  text-align: center;
+}
+	
+	.c .s img{
+		width: 330vw!important;
+	}
+	
+	.folio-content .col-md-8{
+		width: 190vh; 
+		left: -14vw;
+		
+		
+	}
+	
+	.folio-content .col-md-8 video{
+		margin-top:  -20vh!important;
+		margin-left: 14vw;
+	}
+	
+.carrusell1 {
+  top: 90px;
+	height: 450px!important;
+ 
+}
+	.card {
+  height: 420px!important;
+		
+	padding-right: 220px;
+		
+}
+	.card a{
+	font-size: 13px;
+	width: 130px;
+	padding: 10px 15px;
+	border-radius: 30px;
+	margin-bottom: 25px!important;
+		text-align: center;
+	margin-left: 6vw!important;
+	
+	
+}
+	
+.subtitle{
+	min-width: 170px!important;
+	max-width: 350px!important;
+	margin-top: 130px!important;
+	margin-left: 30px!important;
+	font-size: 15px;
+	line-height: 22px;
+	
+	
+}
+	
+.title {
+	left: 30px;
+	font-size: 22px;
+	top: 30px;
+}
+	.form{
+		
+	}
+	.form span{
+		margin-top: 0px;
+	}
+	
+	.form p{
+	font-size: 29px;
+	margin-top: 40px;
+	clear: both;
+		
+}
+	.form input{
+		width: 250px;
+		clear: both;
+		margin-left: 20px;
+		margin-top: 30px!important;
+		
+		
+	}
+	.buttonform{
+		font-size: 17px;
+		margin-left:70vw;
+	}
 }
 
 /* // Large devices (desktops, less than 1200px) RETINA */
